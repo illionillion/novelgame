@@ -1,0 +1,15 @@
+*{
+  border: 1px solid black;
+}
+
+#frame{
+  width: 500px;
+  height: 400px;
+}
+
+#screen{
+  width: 450px;
+  height: 300px;
+  background-color: black;
+  color: white;
+}

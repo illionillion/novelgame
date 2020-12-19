@@ -26,13 +26,14 @@
   color: white;
   margin: 10px auto;
   font-size: 1.2rem;
+  line-height: normal;
   /* flex: 2; */
   /* grid-area: text; */
 }
 
 #panel{
   display: flex;
-  height: auto;
+  height: 100px;
   text-align: center;
   /* flex: 1; */
   /* grid-area: slider; */
@@ -42,6 +43,23 @@
   /* height: 50px;
   flex: 1; */
   margin: auto;
+  width: 150px;
+  height: 70px;
+  border-radius: 25px;  
+  font-weight: bold;
+}
+
+#yesbtn , #nobtn{
+  /* display: none; */
+  width: 125px;
+  height: 70px;
+  white-space: normal;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+input[type="button"]:focus{
+  outline: 0;
 }
 
 #block{
@@ -53,9 +71,7 @@
   margin: 5px auto;
 } */
 
-/* #yes , #no{
-  display: none;
-} */
+
 
 .none{
   display: none;

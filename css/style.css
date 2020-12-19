@@ -5,31 +5,49 @@
 
 
 #frame{
-  width: 500px;
-  height: 400px;
+  width: 450px;
+  height: 100%;
   margin: auto;
- 
+  /* display: flex;
+  flex-direction: column; */
+  /* flex-wrap: wrap; */
+  /* display: grid;
+  grid-template: 
+  "text" 60%
+  "slider" 40%
+  /auto
+  ; */
 }
 
 #screen{
-  width: 450px;
+  width: 100%;
   height: 300px;
   background-color: black;
   color: white;
   margin: 10px auto;
-  
+  font-size: 1.2rem;
+  /* flex: 2; */
+  /* grid-area: text; */
 }
 
 #panel{
   display: flex;
   height: auto;
   text-align: center;
+  /* flex: 1; */
+  /* grid-area: slider; */
 }
 
-/* #nextbtn{
-  height: 50px;
-  flex: 1;
-} */
+#nextbtn{
+  /* height: 50px;
+  flex: 1; */
+  margin: auto;
+}
+
+#block{
+  /* flex: 2; */
+  margin: auto;
+}
 
 /* input[type="button"]{
   margin: 5px auto;
@@ -43,6 +61,3 @@
   display: none;
 }
 
-/* #block{
-  flex: 2;
-} */

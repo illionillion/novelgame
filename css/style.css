@@ -50,6 +50,7 @@
   height: 70px;
   border-radius: 25px;  
   font-weight: bold;
+  white-space: normal;
 }
 
 #yesbtn , #nobtn{
@@ -85,8 +86,6 @@ input[type="button"]:hover{
 /* input[type="button"]{
   margin: 5px auto;
 } */
-
-
 
 .none{
   display: none;

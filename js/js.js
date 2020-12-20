@@ -48,7 +48,7 @@ nextbtn.onclick=function next(){
   // screen.innerHTML="あ～、勉強めんどくせ～。";
 
   var page = page_count();
-
+  sound();
   if (sentence.indexOf(sentence[page]) >= 0){
     // 存在する
     screen.innerHTML=sentence[page];
@@ -87,6 +87,7 @@ yesbtn.onclick=function yes(){
 
 nobtn.onclick=function no(){
   let root=nobtn.value;
+
   sessionStorage.clear('page-count');
   if(text2[root]){
   sentence=text2[root][0];
@@ -139,5 +140,11 @@ function page_count(){
   sessionStorage.setItem('page-count',count);
   return count;
 }
+}
+
+function sound(){
+  var audioElem = new Audio();
+  audioElem.src = "music/se_maoudamashii_system44.mp3";
+  audioElem.play();
 }
 

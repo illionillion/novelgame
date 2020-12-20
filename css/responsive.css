@@ -7,7 +7,7 @@
     display: grid;
     grid-template: 
     "screen" 1fr
-    "panel" 160px
+    "panel" 100px
     /100%
     ;
   }

@@ -2,14 +2,34 @@
   /* 480px以下に適用されるCSS（スマホ用） */
   #frame{
     width: auto;
-    /* height: 100%; */
+    
+    min-height: 95vh;
+    display: grid;
+    grid-template: 
+    "screen" 1fr
+    "panel" 160px
+    /100%
+    ;
   }
 
   #screen{
-    width: auto;
+    /* width: auto; */
+    height: auto;
     font-size: 1.5rem;
     overflow-y: auto;
+    line-height: 40px;
+    grid-area: screen;
   }
 
+  #panel{
+    width: auto;
+    height: auto;
+    grid-area: panel;
+  }
+
+  /* input[type="button"]:focus{
+    border: 1px solid white;
+    color: white;
+  } */
 
 }

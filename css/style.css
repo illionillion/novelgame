@@ -1,13 +1,13 @@
 *{
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  background-color: black;
 }
-
-
 
 #frame{
   width: 450px;
   height: 100%;
   margin: auto;
+  background-color: black;
   /* display: flex;
   flex-direction: column; */
   /* flex-wrap: wrap; */
@@ -24,17 +24,20 @@
   height: 300px;
   background-color: black;
   color: white;
-  margin: 10px auto;
+  border: 1px solid white;
+  margin: 0 auto;
   font-size: 1.2rem;
-  line-height: normal;
+  line-height: 30px;
   /* flex: 2; */
   /* grid-area: text; */
 }
 
 #panel{
   display: flex;
+  width: 100%;
   height: 100px;
   text-align: center;
+  border: 1px solid white;
   /* flex: 1; */
   /* grid-area: slider; */
 }
@@ -58,8 +61,20 @@
   font-weight: bold;
 }
 
+input[type="button"]{
+  transition: 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.438);
+  color: rgba(255, 255, 255, 0.438);
+}
+
 input[type="button"]:focus{
   outline: 0;
+  /* border: 1px solid red; */
+}
+
+input[type="button"]:hover{
+  border: 1px solid white;
+  color: white;
 }
 
 #block{

@@ -23,7 +23,8 @@ var sentence;
 var option;
 
 window.onload=function title(){
-
+//ページをリロードしても内容が変わらないようにする
+//配列から場面に合わせてテキストを抽出
   screen.innerHTML='テスト勉強をしたくない。';
   nextbtn.value='始める';
   sentence=text2["プロローグ"][0];
@@ -43,7 +44,7 @@ window.onload=function title(){
 }
 
 nextbtn.onclick=function next(){
-
+  //配列から取り出す
   // screen.innerHTML="あ～、勉強めんどくせ～。";
 
   var page = page_count();

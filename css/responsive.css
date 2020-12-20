@@ -22,7 +22,7 @@
   }
 
   #panel{
-    width: auto;
+    /* width: auto; */
     height: auto;
     grid-area: panel;
   }

@@ -38,7 +38,11 @@ window.onload=function title(){
     option=text2[sessionStorage.getItem('part-count')][1];
     if(text2[sessionStorage.getItem('part-count')][2]){
       special=text2[sessionStorage.getItem('part-count')][2];
+    }else{
+      special=[];
     }
+  }else{
+    special=[];
   }
 
   if(sessionStorage.hasOwnProperty('page-count')){

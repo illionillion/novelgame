@@ -27,7 +27,7 @@
     grid-area: panel;
   }
 
-  input[type="button"]:active{
+  input[type="button"]{
     border: 1px solid white;
     color: white;
   }

@@ -66,6 +66,7 @@ input[type="button"]{
   transition: 0.3s;
   border: 1px solid rgba(255, 255, 255, 0.438);
   color: rgba(255, 255, 255, 0.438);
+  cursor: pointer;
 }
 
 input[type="button"]:focus{

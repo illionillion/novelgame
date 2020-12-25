@@ -120,16 +120,16 @@ nextbtn.onclick=function next(){
       
     }else{
       // location.reload();     
-
+      screen.classList.add('text_center2');
       if(sessionStorage.hasOwnProperty('end-count')){
-
+        
         if(nextbtn.value=="終わり"){
               sessionStorage.clear();
               location.reload();
             }
         nextbtn.value="終わり";
       }else{
-        screen.classList.add('text_center2');
+        // screen.classList.add('text_center2');
         nextbtn.classList.add('none');
         block.classList.remove('none');
         // yesbtn.classList.remove('none');

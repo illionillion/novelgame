@@ -3,7 +3,7 @@
   #frame{
     width: auto;
     
-    height: 95vh;
+    height: 90vh;
     display: grid;
     grid-template: 
     "screen" 1fr
@@ -19,6 +19,10 @@
     overflow-y: auto;
     line-height: 40px;
     grid-area: screen;
+  }
+
+  .text_center2{
+    text-align: center;
   }
 
   #panel{
